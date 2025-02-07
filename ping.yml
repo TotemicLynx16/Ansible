@@ -1,0 +1,6 @@
+---
+- name: Verificar conectividad con los servidores
+  hosts: all
+  tasks:
+    - name: Hacer ping a los servidores
+      ansible.builtin.ping:
