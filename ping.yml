@@ -1,4 +1,5 @@
 ---
+#Comentario random
 - name: Verificar conectividad con los servidores
   hosts: all
   tasks:
